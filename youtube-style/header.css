@@ -1,0 +1,207 @@
+
+
+.header{
+  height: 57px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position:fixed;
+  top: 0px;
+  left:0px;
+  right:0px;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(221, 221, 221);
+  z-index: 1;
+}
+
+.left-side{ 
+  display: flex;
+  align-items: center;
+}
+
+.humburger-logo{
+  height: 24px;
+  margin-left: 26px;
+  cursor: pointer;
+}
+
+.youtube-logo{
+  height: 20px;
+  margin-left: 22px;
+  cursor: pointer;
+}
+
+.middle-side{
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 33px;
+  max-width: 480px;
+  min-width: 150px;
+  display: flex;
+  align-items: center;
+}
+
+ 
+.search-bar{
+  flex: 1;
+  width: 0px;
+  height: 35px;
+  font-size: 19px;
+  padding-left: 13px;
+  border-color: rgb(199, 199, 199);
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 1px;
+  font-family: Roboto, Arial;
+  transition: background-color 0.15s;
+}
+
+.search-bar::placeholder{
+  font-size: 16px;
+  font-family: Roboto, Arial;
+}
+
+.search-bar:hover{
+  background-color: rgb(248, 248, 248);
+}
+
+.search-logo{
+  height: 39px;
+  width: 75px;
+  border-color: rgb(199, 199, 199);
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgb(247, 247, 247);
+  margin-left: -1px;
+  cursor: pointer;
+  position: relative;
+}
+
+.voice-logo{
+  height: 40px;
+  width: 40px;
+  border-radius: 60px;
+  border: none;
+  margin-left: 8px;
+  background-color: rgb(247, 247, 247);
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-logo:hover{
+  background-color: rgb(240, 240, 240);
+}
+
+.voice-logo,
+.search-logo,
+.upload-div,
+.app-div,
+.notification
+{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-logo .toolkit,
+.voice-logo .toolkit,
+.upload-div .toolkit,
+.app-div .toolkit,
+.notification .toolkit{
+  position: absolute;
+  bottom: -49px;
+  background-color: rgba(100, 100, 100, 0.9);
+  color: white;
+  font-size: 12px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  white-space: nowrap;
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.search-logo:hover .toolkit,
+.voice-logo:hover .toolkit,
+.upload-div:hover .toolkit,
+.app-div:hover .toolkit,
+.notification:hover .toolkit{
+  opacity: 1;
+}
+
+
+
+.search-logo-pic{
+  height: 25px;
+  margin-top: 3px;
+}
+
+.voice-logo-pic{
+  height: 25px;
+}
+
+.right-side{
+  margin-right: 23px;
+  display: flex;
+  width: 186px;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.upload-logo{
+  height: 24px;
+  position: relative;
+  
+  cursor: pointer;
+}
+
+
+.search-logo:hover .toolkit{
+  opacity: 1;
+}
+.apps-logo{
+  height: 24px;
+  cursor: pointer;
+}
+
+.notification{
+  position: relative;
+  width: 35px;
+  height: 31px;
+  cursor: pointer;
+}
+
+.number{
+  position: absolute;
+  background-color: rgb(189, 6, 6);
+  color: white;
+  font-size: 10px;
+  font-weight: lighter;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 10px;
+  top: 2px;
+  right: -2px;
+}
+
+.notification-logo{
+  height: 24px;
+  margin-top: 4px;
+}
+
+.profile-photo-youtube{
+  height: 34px;
+  border-radius: 100px;
+  cursor: pointer;
+}

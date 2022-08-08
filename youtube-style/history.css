@@ -1,0 +1,101 @@
+.section{
+	width: 80%;
+	width: 90%;
+	max-width: 620px;
+	align-items: center;
+	position: relative;
+}
+
+.history-div{
+	margin: 6px 0px 30px 0px;
+	vertical-align: top;
+}
+
+.history{
+	font-weight: 500;
+	font-size: 16px;
+	display: inline-block;
+	margin: 0;
+}
+
+.watchlater-logo{
+	height: 20px;
+	padding-right: 10px;
+	margin-top: 10px;
+	display: inline-block;
+	margin: 0;
+}
+
+.see-all{
+	color: rgb(0, 106, 206);
+	font-size: 15px;
+	font-weight: 500;
+	display: inline-block;
+	margin: 6px 0px 36px 160px;
+}
+
+
+.grid{
+	border-bottom: 1px solid rgb(209, 209, 209);
+	padding-bottom: 25px;
+	
+	display: grid;
+	grid-template-columns: 220px 220px;
+	column-gap: 4px;
+	row-gap: 23px;
+	justify-content: center;
+}
+
+.whole-block-div{
+	width:220px;
+}
+
+.thumbnail{
+	width: 100%;
+	height: 120px;
+}
+
+.video-title{
+	font-size: 15px;
+	font-weight: 500;
+	margin: 4px 0px 11px 0px;
+}
+
+.channel-name,
+.video-stats{
+	color:rgb(112, 112, 112);
+	font-size: 13px;
+	margin-bottom: 3px;
+}
+
+.video-preview{
+	position: relative;
+}
+
+.duration{
+	position: absolute;
+	bottom: 12px;
+	right: 5px;
+	background-color: rgba(0, 0, 0, 0.9);
+	color: white;
+	font-size: 12px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-radius: 2px;
+	font-weight: 500;
+	cursor: pointer;
+	font-family: Roboto,Arial;
+}
+
+.border-div{
+	padding: 25px 0px 25px 0px;
+	border-bottom: 1px solid rgb(209, 209, 209);
+	width: 90%;
+}
+
+.save-videos{
+	font-size: 14px;
+	color: rgb(99, 99, 99);
+}

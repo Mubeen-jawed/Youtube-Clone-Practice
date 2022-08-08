@@ -1,0 +1,1053 @@
+  p{
+    margin-top: 0;
+    margin-bottom: 0px;
+  }
+
+  body{
+    margin-bottom: 500px;
+  }
+
+  div{
+    font-family: Roboto,Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  a{
+    font-size: larger;
+    margin-left: 5px;
+  }
+
+  a:hover{
+    color: rgb(0, 0, 255);
+    opacity: 0.8;
+  }
+
+  .nike-shoes{
+    font-weight: bolder;
+    font-size: xx-large; 
+  }
+
+  .price{
+    color: green;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  .delivery{
+    font-size: larger;
+    font-weight: 500;
+  }
+
+  .cart{
+    background-color: rgb(255, 216, 20);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    height: 32px;
+    width: 115px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    margin-right: 8px;
+  }
+
+  .cart:hover{
+    background-color: rgb(243, 204, 10);
+  }
+
+  .cart:active{
+    opacity: 0.8;
+  }
+
+  .buy-button{
+    background-color: rgb(255, 164, 28);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    height: 32px;
+    width: 115px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    margin-right: 8px;
+  }
+
+  .buy-button:hover{
+    background-color: rgb(236, 146, 11);
+  }
+
+  .buy-button:active{
+    opacity: 0.8;
+  }
+
+  .back-button{
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+  }
+
+  .back-button:hover{
+    background-color: whitesmoke;
+  }
+
+
+  .next-button{
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+  }
+
+  .next-button:hover{
+    background-color: whitesmoke;
+  }
+
+  .tahoma-font{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 990;
+    font-size: 26px;
+    margin-top: 50px;
+  }
+
+  .year-deals{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 27px;
+    margin-bottom: 4px;
+  }
+
+  .end-day{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19;
+    color: red;
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+
+  .video-title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 1000;
+    margin-bottom: 2px;
+  }
+
+  .video-aim{
+    color: rgb(71, 71, 71);
+    margin-top: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .video-discription{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    width: 250px;
+    line-height: 18px;
+    margin-bottom: 10pxs;
+    font-weight: 200;
+  }
+
+  .video-link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(43, 158, 43);
+    border: none;
+    border-radius: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    color: white;
+  }
+
+  .apple-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .apple-subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  .apple-link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: blue;
+    margin-bottom: 50px;
+    text-align: center
+    
+  }
+
+  .new{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+
+  .macbook-pro{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 2px;
+  }
+
+  .supercharged{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 9px;
+    margin-top: 0px;
+  }
+
+  .price{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 0px;
+    color: rgb(54, 53, 53);
+  }
+
+  .buy{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 50px;
+    background-color: rgb(101, 101, 212);
+    border: none;
+    border-radius: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: white;
+    cursor: pointer;
+    margin-left: 650px;
+    margin-right: 650px;
+  }
+
+  .rate{
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    padding-right: 8px;
+  }
+
+  .usd{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(83, 82, 82);
+    margin-bottom: 6px;
+  }
+
+  .surplus{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: green;
+    margin-bottom: 6px;
+    margin-top: 0px;
+  }
+
+  .after{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(83, 82, 82);
+    margin-bottom: 50px;
+    margin-top: 0px;
+  }
+  .deficiet{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: red;
+    margin-bottom: 50px;
+    margin-top: 0px;
+  }
+
+  .code-camp{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 0px;
+  }
+
+  .code-camp-email{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: gray;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    font-weight: 100;
+  }
+
+  .code-camp-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    line-height: 23px;
+    width: 500px;
+  }
+
+  .link-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-bottom: 50px;
+    width: 500px;
+  }
+
+  .blog-link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-bottom: 50px;
+    color: blue;
+  }  
+
+  .cat-pic{
+    border-radius: 5000px;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 70px;
+    display: block;
+    width: 200px;
+    height: 200px
+  }
+
+
+  .search-bar{
+    width: 160px;
+    height: 40px;
+    margin-bottom: 80px;
+    border-color: rgb(182, 182, 182);
+    border-width: 0.1px;
+    border-style: solid;
+    border-radius: 5px;
+    padding-left: 13px;
+  }
+
+  .div-google-search{
+    text-align: center;
+  }
+
+  .google-logo{
+    text-align: center;
+    margin-bottom: 4px;
+    margin-left: 60px;
+    margin-right: 400px;
+    width: 300px;
+  }
+
+  .google-search-bar{
+    width: 500px;
+    height: 42px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 100px;
+    margin-top: 0px;
+    border: none;
+    border-radius: 25px;
+    padding-left: 13px;
+    display: block;
+    margin-left: 300px;
+    margin-right: 300px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .google-search-bar:hover{
+    background-color: whitesmoke;
+  }
+
+  .email{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+  }
+
+  .linkedin-email{
+    width: 300px;
+    height: 22px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: black;
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+
+  .linkedin-policy{
+    margin-top: 0px;
+    color: rgb(41, 41, 41);
+    margin-bottom: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px
+  }
+
+  .agree-button{
+    background-color: rgb(0, 114, 177);
+    padding-left: 95px;
+    padding-right: 95px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: none;
+    transition: opacity 0.24s;
+    border-radius: 20px;
+    margin-bottom: 80px;
+    display: block;
+  }
+
+  .agree-button:hover{
+    opacity: 0.9;
+  }
+
+  .twitter-border{
+    width: 430px;
+    height: 70px;
+    margin-bottom: 70px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    vertical-align: middle;
+  }
+
+  .twitter-profile{
+    height: 50px;
+    width: 50px;
+    border-radius: 1000px;
+    margin-left: 10px;
+    margin-top: 10px;
+    vertical-align: top;
+    margin-bottom: 25px;
+  }
+
+  .twitter-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(63, 63, 63);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    display: inline-block;
+    
+  }
+
+  .tweet-button{
+    background-color: rgb(0, 172, 238);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+
+  .name-box{
+    width: 130px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    display: block;
+    border-color: rgb(153, 153, 153);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    border-radius: 2px;
+  }
+
+  .email-box{
+    width: 130px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    display: block;
+    border-color: rgb(153, 153, 153);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+  }
+
+  .survey{
+    width: 200px;
+    display: inline-block;
+    margin-bottom: 70px;
+  }
+  .no,
+  .yes{
+    vertical-align: middle;
+    margin-bottom: 70px;
+  }
+
+  .last-name,
+  .first-name{
+    width: 100px;
+    height: 35px;
+    border-color: gray;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .email-bar{
+    width: 220px;
+    height: 35px;
+    border-color: gray;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 10px;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .signup-button{
+    background-color: rgb(0, 114, 177);
+    color: white;
+    padding-left: 89px;
+    padding-right: 89px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    display: block;
+    border: none;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+
+  .request-ride{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+
+  .destination,
+  .pick-up{
+    width: 300px;
+    height: 35px;
+    background-color: rgb(233, 233, 233);
+    border: none;
+    padding-left: 15px;
+    display: block;
+    color: black;
+    margin-top: 8px;
+  }
+
+  .request-now{
+    margin-top: 30px;
+    background-color: black;
+    border: none;
+    font-size: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    transition: opacity 0.25s;
+    margin-right: 10px;
+  }
+
+  .request-now:hover{
+    opacity: 0.8;
+  }
+
+  .schedule{
+    margin-top: 20px;
+    margin-bottom: 70px;
+    background-color: rgb(233, 233, 233);
+    border: none;
+    font-size: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: opacity 0.25s;
+    color: black;
+  }
+
+  .schedule:hover{
+    opacity: 0.7;
+  }
+
+  .div-practice-one{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 70px;
+  }
+
+  .div-practice-two{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 1000px;
+    display: inline-block;
+    margin-bottom: 70px;
+  }
+  
+  .div-design{
+    width: 300px;
+    height: 90px;
+    border-color: rgb(177, 176, 176);
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 50px;
+  }
+
+  .satisfaction-question{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-bottom: 2px;
+  }
+
+  .div-yes{
+    margin-left: 15px;
+  }
+
+  .div-install{
+    width: 310px;
+    height: 90px;
+    background-color: rgb(49, 49, 49);
+    margin-bottom: 70px;
+  }
+
+  .install-music{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 7px;
+    margin-bottom: 0px;
+  }
+
+  .install-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(155, 155, 155);
+    padding-left: 10px;
+    padding-right: 7px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .grid-friend-request{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .div-friend-request{
+    margin-left: 0px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+    margin-bottom: 100px;
+  }
+
+  .profile-photo{
+    width: 140px;
+    height: 132px;
+    object-fit: cover;
+    margin-bottom: 3px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .profile-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 3px;
+  }
+
+  .mutual-whole-div{
+    display: grid;
+    grid-template-columns: 10px 1fr;
+    margin-bottom: 5px;
+  }
+
+  .mutual-friend-pic{
+    width: 20px;
+    height: 20px;
+    border-radius: 500px;
+    margin-left: 5px;
+  }
+
+  .mutual-friends{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(124, 104, 104);
+    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 5px;
+  }
+
+  .add-friend{
+    background-color: rgb(50, 115, 255);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 7px;
+    padding-bottom: 9px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 0px;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.15s;
+    border: none;
+  }
+
+  .add-friend:hover{
+    background-color:  rgb(29, 101, 255);
+  }
+
+  .container{
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(168, 168, 168);
+    border-radius: 5px;
+    height: 104px;
+    max-width: 300px;
+    flex: 1;
+    margin-bottom: 60px;
+  }
+
+  .flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+  }
+
+  .notification{
+    background-color: rgb(82, 82, 250);
+    color: white;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .container-one{
+    height: 50px;
+    max-width: 705px;
+    flex: 1;
+    background-color: rgb(118, 80, 180);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    justify-content: space-between;
+    margin-bottom: 70px;
+  }
+
+  .search-one{
+    flex: 1;
+    height: 25px;
+    width: 400px;
+    margin-bottom: 5px;
+  }
+
+  .input-search{
+    border-radius: 30px;
+    height: 100%;
+    width: 100%;
+    padding-left: 15px;
+    border-style: solid;
+    transition: background-color 0.2s;
+  }
+
+  .input-search:hover{
+    background-color: rgb(233, 233, 233);
+  }
+
+  .home-one{
+    margin-left: 10px;
+    margin-right: 65px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor:pointer;
+  }
+
+  .download-one{
+    margin-left: 65px;
+    margin-right: 15px;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 2px;
+    cursor:default;
+    transition: background-color 0.15s;
+  }
+
+  .download-one:hover{
+    background-color:  rgb(97, 63, 151);
+  }
+
+ 
+  .container-two{
+    margin-bottom: 70px;
+  }
+
+  .flexbox-two{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    
+  }
+
+  .profile-photo-two{
+    width: 50px;
+    height:50px;
+    border-radius: 100px;
+  }
+
+  .info-div{
+    margin-left: 10px;
+    margin-right: 150px;
+  }
+
+  .more-info{
+    color:rgb(122, 122, 122);
+    font-size:14px;
+    margin-top: 5px;
+    margin-bottom: 4px;
+  }
+
+  .more-info-one{
+    color:rgb(122, 122, 122);
+    font-size:14px;
+    
+  }
+
+  .follow-button{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(33, 149, 243);
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .container-three{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    box-shadow:0px 0px 5px rgba(0, 0, 0, 0.35);
+    height: 210px;
+    width: 290px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .inbox{
+    color: rgb(143, 143, 143);
+    font-size: 10px;
+    margin-left: 7px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+  }
+
+  .ios-pic{
+    height: 33px;
+    width: 33px;
+    border-radius: 25px;
+    margin-top: 6px;
+    margin-right: 8px;
+  }
+
+  .chewy{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 1px;
+  }
+
+  .time{
+    font-size: 10px;
+    color: rgb(143, 143, 143);
+    font-weight: 500;
+   
+  }
+
+  .sale{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+
+  .hey{
+    font-size: 11px;
+    color: rgb(143, 143, 143);
+  }
+
+
+
+  .container-three-one{
+    background-color: rgb(21, 21, 21);
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    box-shadow:0px 0px 5px rgba(0, 0, 0, 0.35);
+    height: 210px;
+    width: 290px;
+    margin-left: 20px;
+    margin-bottom: 70px;
+  }
+
+  .inbox-one{
+    color: rgb(143, 143, 143);
+    font-size: 10px;
+    margin-left: 7px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+  }
+
+  .chewy-one{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 1px;
+    color: white;
+  }
+
+  .time-one{
+    font-size: 10px;
+    color: rgb(143, 143, 143);
+    font-weight: 500;
+  }
+
+  .sale-one{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    color: white;
+  }
+
+  .hey-one{
+    font-size: 11px;
+    color: rgb(143, 143, 143);
+  }
+
+  .photo{
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    margin-right: 7px;
+  }
+
+  .super{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-right: 4px;
+  }
+
+  .simple{
+    font-size: 13px;
+    color: rgb(88, 88, 88);
+    margin-bottom: 3px;
+  }
+
+  .para{
+    font-size: 13px;
+    width: 300px;
+    line-height: 17px;
+  }
+
+  .contain{
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(199, 199, 199);
+    height: 77px;
+    width: 285px;
+    border-radius: 15px;
+    display: flex;
+  }
+
+  .img{
+    background-color: rgb(199, 199, 199);
+    height: 100%;
+    width: 70px;
+    display: flex;
+    margin-right: 10px;
+  }
+
+  .info-three{
+   
+  }
+
+  .you{
+    font-size: 13px;
+    color:rgb(88, 88, 88);
+    margin-bottom: 3px;
+    margin-top: 15px;
+    
+  }
+
+  .back{
+    font-size: 14px;
+    width: 190px;
+    line-height: 17px;
+  }
+
+  .flexbox-three{
+    display: flex;
+  }
